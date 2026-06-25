@@ -1,0 +1,14 @@
+{
+  "name": "marquet-prod",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@stripe/stripe-js": "5.10.0",
+    "pathe": "1.1.2",
+    "seroval": "1.5.4",
+    "seroval-plugins": "1.5.4",
+    "solid-js": "1.9.13",
+    "vinxi": "0.5.11"
+  }
+}
