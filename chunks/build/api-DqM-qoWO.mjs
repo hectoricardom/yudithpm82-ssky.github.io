@@ -20,7 +20,7 @@ function E(t) {
     return n()[1] ? "page" : void 0;
   } }), void 0, true);
 }
-const P = "https://ssgloghr.com/public/shop", T = "https://ssgloghr.com/query";
+const P = "https://ssgloghr.com/public/shop", T = "https://ssgloghr.com/api/query";
 class f extends Error {
   constructor(e, o, r) {
     super(o), this.status = e, this.retryAfter = r, this.name = "ApiError";
@@ -70,4 +70,4 @@ const I = { shop: { products: (t = {}) => {
 }, product: (t) => a(`/products/${t}`), categories: () => a("/categories").then(j), createCart: () => a("/cart", { method: "POST" }).then(i), getCart: (t) => a(`/cart/${t}`).then(i), setItem: (t, e, o) => a(`/cart/${t}/items`, { method: "POST", body: JSON.stringify({ productId: e, qty: o }) }).then(i), addItemNew: (t, e) => a("/cart/items", { method: "POST", body: JSON.stringify({ productId: t, qty: e }) }).then(i), clearCart: (t) => a(`/cart/${t}`, { method: "DELETE" }).then(i), checkout: (t, e) => a(`/cart/${t}/checkout`, { method: "POST", body: JSON.stringify(e) }) }, orders: { list: (t = {}) => c("getStorefrontOrders", t), get: (t) => c("getStorefrontOrderById", { id: t }), stats: () => c("getStorefrontOrderStats"), confirm: (t) => c("confirmStorefrontOrder", { orderId: t }), cancel: (t) => c("cancelStorefrontOrder", { orderId: t }) } };
 
 export { E, I, f };
-//# sourceMappingURL=api-Cva_LdRg.mjs.map
+//# sourceMappingURL=api-DqM-qoWO.mjs.map

@@ -1,6 +1,6 @@
 import { ssr, ssrHydrationKey, escape, createComponent, ssrStyleProperty, ssrAttribute } from 'solid-js/web';
 import { Show, createSignal } from 'solid-js';
-import { E, k as kt } from '../../index.mjs';
+import { E, a as kt } from '../../index.mjs';
 import { e } from './Money-BFVoQFsZ.mjs';
 import { g } from './ProductImage-DdC0ohbV.mjs';
 
@@ -52,4 +52,4 @@ function B(r) {
 }
 
 export { B, q };
-//# sourceMappingURL=PromoBanner-BxZ7nt9B.mjs.map
+//# sourceMappingURL=PromoBanner-0mTqNdZ4.mjs.map

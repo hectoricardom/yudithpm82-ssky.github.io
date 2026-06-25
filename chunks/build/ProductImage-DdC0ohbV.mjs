@@ -1,6 +1,6 @@
 import { createComponent, ssr, ssrHydrationKey, ssrAttribute, escape } from 'solid-js/web';
 import { Show } from 'solid-js';
-import { k as kt } from '../../index.mjs';
+import { a as kt } from '../../index.mjs';
 
 var i = ["<img", ' class="', '" loading="lazy">'], o = ["<span", ' class="text-[11px] font-medium uppercase tracking-wide text-neutral-400">', "</span>"], u = ["<div", ' class="', '"><span class="', '">M</span><!--$-->', "<!--/--></div>"];
 function g(e) {
