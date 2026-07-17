@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-17T01:01:14.782Z",
+  "preset": "bun",
+  "framework": {
+    "name": "nitro",
+    "version": ""
+  },
+  "versions": {
+    "nitro": "2.13.4"
+  },
+  "commands": {
+    "preview": "bun run server/index.mjs"
+  },
+  "config": {}
+}

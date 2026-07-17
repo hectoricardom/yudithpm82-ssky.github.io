@@ -1,0 +1,218 @@
+{
+  "_Money-BFVoQFsZ.js": {
+    "file": "assets/Money-BFVoQFsZ.js",
+    "name": "Money"
+  },
+  "_ProductImage-BBA3ePvh.js": {
+    "file": "assets/ProductImage-BBA3ePvh.js",
+    "name": "ProductImage",
+    "imports": [
+      "_i18n-DhC8pOTw.js"
+    ]
+  },
+  "_PromoBanner-DfxIk5oi.js": {
+    "file": "assets/PromoBanner-DfxIk5oi.js",
+    "name": "PromoBanner",
+    "imports": [
+      "_i18n-DhC8pOTw.js",
+      "_cart-Cot-aues.js",
+      "_Money-BFVoQFsZ.js",
+      "_ProductImage-BBA3ePvh.js",
+      "_api-id5mx5ww.js"
+    ]
+  },
+  "_RequireAuth-1rBPcrp7.js": {
+    "file": "assets/RequireAuth-1rBPcrp7.js",
+    "name": "RequireAuth",
+    "imports": [
+      "_i18n-DhC8pOTw.js"
+    ]
+  },
+  "_api-id5mx5ww.js": {
+    "file": "assets/api-id5mx5ww.js",
+    "name": "api",
+    "imports": [
+      "_i18n-DhC8pOTw.js"
+    ]
+  },
+  "_cart-Cot-aues.js": {
+    "file": "assets/cart-Cot-aues.js",
+    "name": "cart",
+    "imports": [
+      "_i18n-DhC8pOTw.js",
+      "_api-id5mx5ww.js"
+    ]
+  },
+  "_combos-Dyt9v_Yz.js": {
+    "file": "assets/combos-Dyt9v_Yz.js",
+    "name": "combos"
+  },
+  "_i18n-DhC8pOTw.js": {
+    "file": "assets/i18n-DhC8pOTw.js",
+    "name": "i18n"
+  },
+  "_index-ogCbY43q.js": {
+    "file": "assets/index-ogCbY43q.js",
+    "name": "index",
+    "imports": [
+      "_i18n-DhC8pOTw.js"
+    ]
+  },
+  "src/routes/cart.tsx?pick=default&pick=$css": {
+    "file": "assets/cart-DJPzsvJb.js",
+    "name": "cart",
+    "src": "src/routes/cart.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_i18n-DhC8pOTw.js",
+      "_index-ogCbY43q.js",
+      "_cart-Cot-aues.js",
+      "_Money-BFVoQFsZ.js",
+      "_ProductImage-BBA3ePvh.js",
+      "_api-id5mx5ww.js"
+    ]
+  },
+  "src/routes/checkout.tsx?pick=default&pick=$css": {
+    "file": "assets/checkout-BYgTbCLE.js",
+    "name": "checkout",
+    "src": "src/routes/checkout.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_i18n-DhC8pOTw.js",
+      "_index-ogCbY43q.js",
+      "_api-id5mx5ww.js",
+      "_cart-Cot-aues.js",
+      "_Money-BFVoQFsZ.js"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-kPpelr90.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_i18n-DhC8pOTw.js",
+      "_index-ogCbY43q.js",
+      "_api-id5mx5ww.js",
+      "_PromoBanner-DfxIk5oi.js",
+      "_cart-Cot-aues.js",
+      "_Money-BFVoQFsZ.js",
+      "_ProductImage-BBA3ePvh.js"
+    ]
+  },
+  "src/routes/login.tsx?pick=default&pick=$css": {
+    "file": "assets/login-C9VI-_Mt.js",
+    "name": "login",
+    "src": "src/routes/login.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_i18n-DhC8pOTw.js",
+      "_index-ogCbY43q.js"
+    ]
+  },
+  "src/routes/ofertas/[combo].tsx?pick=default&pick=$css": {
+    "file": "assets/_combo_-BnaxPXPk.js",
+    "name": "_combo_",
+    "src": "src/routes/ofertas/[combo].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_i18n-DhC8pOTw.js",
+      "_index-ogCbY43q.js",
+      "_api-id5mx5ww.js",
+      "_cart-Cot-aues.js",
+      "_combos-Dyt9v_Yz.js",
+      "_Money-BFVoQFsZ.js",
+      "_ProductImage-BBA3ePvh.js"
+    ]
+  },
+  "src/routes/ofertas/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-CYwdsy7E.js",
+    "name": "index",
+    "src": "src/routes/ofertas/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_i18n-DhC8pOTw.js",
+      "_index-ogCbY43q.js",
+      "_api-id5mx5ww.js",
+      "_combos-Dyt9v_Yz.js",
+      "_PromoBanner-DfxIk5oi.js",
+      "_cart-Cot-aues.js",
+      "_Money-BFVoQFsZ.js",
+      "_ProductImage-BBA3ePvh.js"
+    ]
+  },
+  "src/routes/orders/[id].tsx?pick=default&pick=$css": {
+    "file": "assets/_id_-D5Of7Oc1.js",
+    "name": "_id_",
+    "src": "src/routes/orders/[id].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_i18n-DhC8pOTw.js",
+      "_api-id5mx5ww.js",
+      "_Money-BFVoQFsZ.js",
+      "_RequireAuth-1rBPcrp7.js"
+    ]
+  },
+  "src/routes/orders/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-spayGTqs.js",
+    "name": "index",
+    "src": "src/routes/orders/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_i18n-DhC8pOTw.js",
+      "_index-ogCbY43q.js",
+      "_api-id5mx5ww.js",
+      "_Money-BFVoQFsZ.js",
+      "_RequireAuth-1rBPcrp7.js"
+    ]
+  },
+  "src/routes/product/[id].tsx?pick=default&pick=$css": {
+    "file": "assets/_id_-DuMLBRSU.js",
+    "name": "_id_",
+    "src": "src/routes/product/[id].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_i18n-DhC8pOTw.js",
+      "_index-ogCbY43q.js",
+      "_api-id5mx5ww.js",
+      "_cart-Cot-aues.js",
+      "_Money-BFVoQFsZ.js",
+      "_ProductImage-BBA3ePvh.js"
+    ]
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-DnCDWI_f.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_i18n-DhC8pOTw.js",
+      "_index-ogCbY43q.js",
+      "_cart-Cot-aues.js",
+      "_api-id5mx5ww.js"
+    ],
+    "dynamicImports": [
+      "src/routes/cart.tsx?pick=default&pick=$css",
+      "src/routes/checkout.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/login.tsx?pick=default&pick=$css",
+      "src/routes/ofertas/[combo].tsx?pick=default&pick=$css",
+      "src/routes/ofertas/index.tsx?pick=default&pick=$css",
+      "src/routes/orders/[id].tsx?pick=default&pick=$css",
+      "src/routes/orders/index.tsx?pick=default&pick=$css",
+      "src/routes/product/[id].tsx?pick=default&pick=$css"
+    ],
+    "css": [
+      "assets/client-BOCq2485.css"
+    ]
+  }
+}
